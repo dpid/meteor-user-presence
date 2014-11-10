@@ -1,7 +1,7 @@
 Package.describe({
   name: "dpid:user-presence",
   summary: "Track which users are online or idle",
-  version: "1.0.0",
+  version: "1.0.1",
   git: "https://github.com/dpid/meteor-user-presence.git"
 });
 
