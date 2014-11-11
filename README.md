@@ -2,6 +2,9 @@
 
 Track which users are online or idle.
 
+### Example
+[https://github.com/dpid/meteor-chat-room](https://github.com/dpid/meteor-chat-room)
+
 ## Installation
 
 ``` sh
