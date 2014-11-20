@@ -38,6 +38,6 @@ Meteor.methods
 
 Meteor.setInterval ->
   _.each connections, (connection, id) ->
-    if connection.lastSeen < (Date.now() - idleDelay)
+    if connection and connection.lastSeen < (Date.now() - idleDelay)
       idle id
 , tickDelay
